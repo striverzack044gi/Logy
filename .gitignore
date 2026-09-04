@@ -1,1 +1,31 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
 
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local Logy data
+data/*
+!data/.gitkeep
+
+# Logs
+*.log
+
+# IDE
+.idea/
+.vscode/
+
+# AIDE / Android generated files
+.gradle/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# OS files
+.DS_Store
+Thumbs.db
